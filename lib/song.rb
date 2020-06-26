@@ -57,3 +57,4 @@ end
 
 
 Song.genres
+Song.artists
