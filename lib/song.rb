@@ -9,5 +9,7 @@ class Song
   @@artists = []
   
   def initialize
+    
+  end
   
 end
