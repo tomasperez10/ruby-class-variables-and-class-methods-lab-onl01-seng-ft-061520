@@ -30,10 +30,4 @@ class Song
     @@artists << artist
   end
   
-  
-  
-  def self.artist_count
-    
-  end
-  
 end
