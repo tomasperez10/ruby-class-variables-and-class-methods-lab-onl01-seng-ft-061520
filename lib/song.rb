@@ -14,7 +14,7 @@ class Song
     genre_count = {}
     @@genres.each do |genre|
       if genre_count[genre]
-        
+        genre_count
   end
   
   @@artists = []
