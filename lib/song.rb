@@ -31,6 +31,9 @@ class Song
         artist_count += 1
       else
         artist_count = 1
+      end
+    end
+    artist_count
   end
   
   def initialize(name, genre, artist)
