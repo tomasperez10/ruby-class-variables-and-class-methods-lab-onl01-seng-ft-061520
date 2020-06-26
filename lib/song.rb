@@ -10,6 +10,11 @@ class Song
   
   @@genres = []
   
+  def self.genre_count
+    genre_hash = {}
+    genre_hash.map do {genre, count}
+  end
+  
   @@artists = []
   
   def initialize(name, genre, artist)
@@ -18,10 +23,7 @@ class Song
     @@artists << artist
   end
   
-  def self.genre_count
-    genre_hash = {}
-    genre_hash.map do {genre, count}
-  end
+  
   
   def self.artist_count
     
