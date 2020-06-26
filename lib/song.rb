@@ -11,7 +11,7 @@ class Song
   @@genres = []
   
   def self.genre_count
-    genre_hash = {}
+    genre_count = {}
     genre_hash.map do {genre, count}
   end
   
